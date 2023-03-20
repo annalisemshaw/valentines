@@ -35,8 +35,8 @@ export default function Carousel(props) {
                     }}
                 >
                 {props.data.map((item) => (
-                    <SwiperSlide>
-                        <div key={item.id} id={item.id} className='flex flex-col shrink-0 py-10 text-center justify-between items-center flex-nowrap'>
+                    <SwiperSlide key={item.id}>
+                        <div key={item.id} className='flex flex-col shrink-0 py-10 text-center justify-between items-center flex-nowrap'>
                             <Image key={item.id} width={300} height={300} src={item.img} alt="pizza" />
                             <div className='py-8'>
                                 <p className='flex justify-center items-center text-myRed font-bold'>{item.name} - ${item.price}
