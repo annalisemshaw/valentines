@@ -45,7 +45,7 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faCcDiscover} size="xl" className='text-light-pink' />
                 <FontAwesomeIcon icon={faGooglePay} size="xl" className='text-light-pink' />
             </div>
-            <p className='text-[10px] text-light-pink'>Copyright &copy; 2023 Valentine's Pizzeria, all rights reserved.</p>
+            <p className='text-[10px] text-light-pink'>Copyright &copy; 2023 Valentine&apos;s Pizzeria, all rights reserved.</p>
         </footer>
     )
 }
