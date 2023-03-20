@@ -22,7 +22,7 @@ export default function Main(props) {
                         <div className="flex space-x-6">
                             <div className='flex items-center'>
                                 <Image src={valentine} width={50} height={50} alt="mascot" />
-                                <p className='text-center'>joey's<br/>favorite</p>
+                                <p className='text-center'>joey&apos;s<br/>favorite</p>
                             </div>
                             <div className='flex items-center'>
                                 <Image src={spicy} width={50} height={50} alt="spicy" />
