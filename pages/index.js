@@ -24,7 +24,6 @@ export default function Home() {
           <title>Valentine&apos;s Pizzeria</title>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-          <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet" />
         </Head>
         <Navbar cartCount={cartCount} />
         <Hero />
