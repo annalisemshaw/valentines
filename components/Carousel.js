@@ -24,8 +24,12 @@ export default function Carousel(props) {
                           slidesPerView: 1,
                           spaceBetween: 20
                         },
-                        1000: {
+                        1024: {
                           slidesPerView: 2,
+                          spaceBetween: 20
+                        },
+                        1600: {
+                          slidesPerView: 3,
                           spaceBetween: 20
                         }
                     }}
