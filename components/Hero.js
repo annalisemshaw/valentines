@@ -9,7 +9,7 @@ export default function Hero() {
         <div id="hero" className='w-screen h-screen flex flex-col bg-gradient-to-r from-myPink to-pink-600 relative shrink-0 overflow-hidden'>
             <div className='h-screen relative overflow-hidden drop-shadow-xl'>
                 <div className='absolute -bottom-24 -right-72 w-[80em] md:w-[85em] lg:w-[95em] md:-right-72 lg:-right-72'>
-                    <Image src={heroImg} width={1920} height={1080} className='relative' />
+                    <Image src={heroImg} width={1920} height={1080} className='relative' alt="pizza and ingredients" />
                 </div>
                 <div className='absolute w-full top-12 left-8 text-light-pink font-ultra flex flex-col gap-4'>
                     <h2 className='text-5xl md:text-6xl lg:text-8xl'>FOR THE<br/>L<FontAwesomeIcon icon={faHeart} />VE OF<br/> PIZZA</h2>

@@ -21,11 +21,11 @@ export default function Main(props) {
                         <h1 className="text-6xl text-myPink font-bold">MENU</h1>
                         <div className="flex space-x-6">
                             <div className='flex items-center'>
-                                <Image src={valentine} width={50} height={50} />
+                                <Image src={valentine} width={50} height={50} alt="mascot" />
                                 <p className='text-center'>joey's<br/>favorite</p>
                             </div>
                             <div className='flex items-center'>
-                                <Image src={spicy} width={50} height={50} />
+                                <Image src={spicy} width={50} height={50} alt="spicy" />
                                 <p className='text-center'>spicy</p>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ export default function Main(props) {
                 {/* parallax banner */}
                 <Parallax bgImage="/parallaxV2.png" bgImageSize="cover" strength={500} bgClassName="object-cover">
                     <div className='py-12 flex justify-center items-center drop-shadow-2xl'>
-                        <Image src={top100} width={150} height={150} />
+                        <Image src={top100} width={150} height={150} alt="top 100 banner" />
                     </div>
                 </Parallax>
 
@@ -45,25 +45,25 @@ export default function Main(props) {
                     <h1 className='text-6xl text-myPink font-bold py-4'>PRODUCTS</h1>
                     <div className='flex flex-col h-auto md:grid md:grid-cols-2 md:grid-rows-2  border-2 border-myPink'>
                             <div className='bg-myPink lg:myPink flex justify-center items-center relative group'>
-                                <Image src={mug} width={500} className='drop-shadow-2xl' />
+                                <Image src={mug} width={500} className='drop-shadow-2xl' alt="mug with logo" />
                                 <button className='transition-all duration-200 bg-gradient-to-tl from-rose-700 via-myRed to-pink-600 bg-size-200 bg-pos-0 hover:bg-pos-100 h-12 text-light-pink font-bold absolute px-8 invisible group-hover:visible bottom-14 rounded-full' onClick={props.handleClick}>
                                     ADD TO CART - $10
                                 </button>
                             </div>
                             <div className='bg-light-pink flex justify-center items-center relative group'>
-                                <Image src={sauce} width={250} className='drop-shadow-2xl' />
+                                <Image src={sauce} width={250} className='drop-shadow-2xl' alt="valentine's secret tomato sauce" />
                                 <button className='transition-all duration-200 bg-gradient-to-tl from-rose-700 via-myRed to-pink-600 bg-size-200 bg-pos-0 hover:bg-pos-100 h-12 text-light-pink font-bold absolute px-8 invisible group-hover:visible bottom-14 rounded-full' onClick={props.handleClick}>
                                     ADD TO CART - $6
                                 </button>
                             </div>
                             <div className='bg-myPink md:bg-light-pink flex justify-center items-center relative group'>
-                                <Image src={hat} width={250} className='drop-shadow-2xl' />
+                                <Image src={hat} width={250} className='drop-shadow-2xl' alt="hat with logo" />
                                 <button className='transition-all duration-200 bg-gradient-to-tl from-rose-700 via-myRed to-pink-600 bg-size-200 bg-pos-0 hover:bg-pos-100 h-12 text-light-pink font-bold absolute px-8 invisible group-hover:visible bottom-14 rounded-full' onClick={props.handleClick}>
                                     ADD TO CART - $15
                                 </button>
                             </div>
                             <div className='bg-light-pink md:bg-myPink lg:bg-myPink flex justify-center items-center relative group'>
-                                <Image src={phone} width={500} className='drop-shadow-2xl' />
+                                <Image src={phone} width={500} className='drop-shadow-2xl' alt="phone case with logo" />
                                 <button className='transition-all duration-200 bg-gradient-to-tl from-rose-700 via-myRed to-pink-600 bg-size-200 bg-pos-0 hover:bg-pos-100 h-12 text-light-pink font-bold absolute px-8 invisible group-hover:visible bottom-14 rounded-full' onClick={props.handleClick}>
                                     ADD TO CART - $14
                                 </button>
